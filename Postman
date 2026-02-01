@@ -1,0 +1,11 @@
+POST http://localhost:5000/api/tasks
+Body (JSON):
+{
+  "text": "Learn Node.js"
+}
+GET http://localhost:5000/api/tasks
+PUT http://localhost:5000/api/tasks/1
+{
+  "completed": true
+}
+DELETE http://localhost:5000/api/tasks/1
